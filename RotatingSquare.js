@@ -391,7 +391,7 @@ function mainEntrance() {
         var corner = new Vector4([...getVertex(cindex), 0.0, 1.0]);
         var cornersIndexes= [0,1,2,5];
 
-        // Metodo para detectar colisão dos pontos
+        // Method to detect corners colision 
         function detectColision()
         {
             let positions = [];
