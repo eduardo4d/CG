@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;500;600;700;800;900&display=swap");
 
-div.center{
+div.center {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Open Sans", sans-serif;
-  color: #111;
+  font-size: 1.2em;
+  color: var(#111);
 }
-.key{
+
+.bt{
   position: relative;
   display: inline-block;
   vertical-align: middle;
@@ -21,20 +23,26 @@ div.center{
   outline: none;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
   
-  min-width: 1em;
+  min-width: 2em;
   text-align: center;
   border-radius: 2px;
-  padding: 2px 4px;
+  padding: 6px 8px;
+  /*border: 1px solid #111;*/
 }
-.key.r{
-  background: red;
-  color: white;
+
+.bt:hover, .bt:focus {
+  background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
 }
-.key.g{
-  background: green;
-  color: white;
+
+
+b.red{
+  color: red;
 }
-.key.b{
-  background: blue;
-  color: white;
+
+b.green{
+  color: green;
+}
+
+b.blue{
+  color: blue;
 }
