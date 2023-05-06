@@ -6,7 +6,7 @@ div.center {
   justify-content: center;
   align-items: center;
   font-family: "Open Sans", sans-serif;
-  color: var(#111);
+  color: #111;
 }
 
 .key{
@@ -26,7 +26,6 @@ div.center {
   text-align: center;
   border-radius: 2px;
   padding: 2px 4px;
-  /*border: 1px solid #111;*/
 }
 
 .key.r{
