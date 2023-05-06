@@ -486,7 +486,6 @@ function mainEntrance() {
             rotateAndScaleAboutCorner(ang, corner.elements[0], corner.elements[1], tx, ty);
 
 
-
             draw();
 
             requestAnimationFrame(runanimation);
