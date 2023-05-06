@@ -1,3 +1,3 @@
 ### Live demo:
 
-https://eduardo4d.github.io/cg
+https://eduardo4d.github.io/cg1
