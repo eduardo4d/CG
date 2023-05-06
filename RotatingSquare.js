@@ -416,7 +416,6 @@ function mainEntrance() {
                 }
             }
         }
-        //Processa qual tipo de colisão dependendo da selecionada
         //collisionType = 0 -left , 1- right , 2- up 3- down
         function processColision(collidedIndex,collisionPosition,collisonType)
         {
