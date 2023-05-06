@@ -159,6 +159,19 @@ function rotateAndScaleAboutCorner(ang, x, y, tx, ty) {
 }
 
 
+/** It changes collision mode */
+function changeCollisionMode() {
+  collisonMode = collisonMode == 0 ? 1 : 0;
+}
+
+/** It increases scale up to a certain limit */
+function increaseScale() {
+  if(currentScale<2.5) currentScale+=0.1;
+}
+/** It decreases scale down to a certain limit */
+function decreaseScale() {
+  if (currentScale > 0.5) currentScale -= 0.1;
+}
 
 
 /**
@@ -186,21 +199,24 @@ function handleKeyPress(event) {
         cindex = 5;
         break;
       case "c":
-        collisonMode = collisonMode == 0 ? 1 : 0;
+        changeCollisionMode();
         break;
       case "+":
-        if(currentScale<2.5)
-        currentScale+=0.1;
+        increaseScale();
         break;
       case "-":
-        if (currentScale > 0.5) currentScale -= 0.1;
-
+        decreaseScale();
         break;
       default:
         return;
     }
     click = true;
 }
+
+
+
+
+
 
 /**
  * Returns the coordinates of the {@link vertices vertex} at index i.
