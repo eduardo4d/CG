@@ -492,6 +492,6 @@ function mainEntrance() {
         };
     })();
 
-    // draw!
+    // draw !
     runanimation();
 }
