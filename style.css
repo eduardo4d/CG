@@ -8,7 +8,6 @@ div.center {
   font-family: "Open Sans", sans-serif;
   color: #111;
 }
-
 .key{
   position: relative;
   display: inline-block;
@@ -27,7 +26,6 @@ div.center {
   border-radius: 2px;
   padding: 2px 4px;
 }
-
 .key.r{
   background: red;
   color: white;
